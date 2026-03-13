@@ -1,0 +1,21 @@
+├── public/----------------- Contains the site logo (replace with your own).
+├── src/--------------------
+│   ├── assets/------------- Contains svg icons for theme toggle component.
+│   │   └── images/--------- Contains default images for homepage and blog posts.
+│   ├── components/--------- All Astro/Preact components in this theme.
+│   ├── content/------------ Content Collections folder.
+│   │   └── blogs/---------- All the blog posts in *.md files.
+│   ├── icons/-------------- All Astro icon components.
+│   ├── layouts/------------ Shared Layout component.
+│   ├── pages/-------------- Various Astro pages, dynamic pages for blogs, tags; a custom 404 page.
+│   ├── styles/------------- Contains `global.css`, `fonts.css` and `animate.css`.
+│   ├── utils/-------------- Contains helper functions.
+│   ├── content.config.ts--- Content collections definitions.
+│   ├── env.d.ts------------ Contains helper functions.
+│   └── site.config.ts------ Manage your site information and content here.
+├── astro.config.mjs-------- Astro configuration file.
+├── changelog.md------------ Detailed Changelog for this theme.
+├── LICENSE----------------- Theme License.
+├── package.json------------ Dependencies and metadata about this template.
+├── README.md--------------- 📍 You are here.
+└── tsconfig.json----------- Typescript configuration file.
